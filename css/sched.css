@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Merriweather+Sans:wght@300&family=Mochiy+Pop+P+One&display=swap');
+@import url(footer.css);
+@import url(navigation.css);
+
+
+
+
+html, body {
+ scroll-behavior: smooth;
+ margin: 0;
+ padding: 0;
+
+ background-color: #fff;
+
+}
+a{
+ text-decoration: none;
+}
+ul{
+ list-style: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 600;
+ margin: 0;
+}
+
+
+
+
+
+
+
+.main .first-section{
+ height: 70vh;
+ width: 100%;
+ position: relative; 
+ background-image: url(../gallery/schedule-background-image.jpg);
+ background-color: #00000093;
+ background-blend-mode: multiply;
+ background-position: top;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ display: grid;
+ 
+}
+
+
+.main .first-section .title{
+ 
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.main .first-section .title h1{
+ margin: 0;
+ font-size: 100px;
+ /* color: #F4D35E; */
+ color: #fff;
+ font-family: 'Henny Penny', cursive;
+
+}
+
+
+
+
+
+
+
+
+
+
+.main .nav .menu li:nth-child(3) a::after {
+ transform: scale(1, 1);
+ transform-origin: center;
+}
+
+
+.main .nav .menu li:nth-child(3) a:hover::after {
+ 
+ transform: scale(.7, 1);
+ transform-origin: center;
+
+}
+
+
+
+
+
+
+
+.main{
+ background-color: #0e1013;
+} 
+
+
+.main .second-section{
+
+ height:auto;
+ width: 100%;
+
+}
+
+
+
+.main .second-section .table{
+
+
+ margin: 100px 100px;
+ text-align: center;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 15px;
+
+}
+
+
+.main .second-section .table table{
+ margin-bottom: 100px;
+ background-color: gray;
+
+
+
+}
+.main .second-section .table img{
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 10px;
+ height: 70px;
+ width: 70px;
+ transform: rotate(0deg);
+ transition: transform .3s ease-in-out;
+ 
+
+
+}
+
+.main .second-section .table .x:nth-child(1){
+ border-radius: 20px 0 0 0;
+
+}
+
+
+.main .second-section .table .x:nth-child(7){
+ border-radius: 0 20px 0 0;
+
+}
+.main .second-section .table .x{
+
+ height: 60px;
+}
+
+
+
+.main .second-section .table .xx{
+ border-radius: 0 0 0 20px;
+
+}
+.main .second-section .table .xxx{
+ border-radius: 0 0 20px 0 ;
+
+}
+
+
+
+
+
+
+
+
+
+table {
+ background-color: transparent;
+ 
+ border-radius: 20px; 
+ overflow: hidden;
+}
+
+td {
+ color: #fff;
+ line-height: 1.4;
+ background-color: rgba(0, 0, 0, 0.32);
+ width: 140px;
+ font-size: 17px;
+
+ 
+}
+
+th {
+ font-size: 12px;
+ color: #fff;
+ line-height: 1.4;
+ text-transform: uppercase;
+ 
+
+ background-color: maroon;
+}
+.hover-row:hover td {
+ background-color: rgba(26, 26, 26, 0.555);
+
+}
+.hover-row td img:hover {
+ height: 100px;
+ width: 100px;
+
+}
+
+.hover-row td:hover{
+ background-color: rgba(0, 0, 0, 0.774);
+
+ 
+
+}
+
+.main .second-section .table .hover-row td:hover img{
+ 
+ 
+ transform: rotate(10deg);
+ transition: transform .3s ease-in-out;
+ 
+}
+
+

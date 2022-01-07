@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Merriweather+Sans:wght@300&family=Mochiy+Pop+P+One&display=swap');
+@import url(footer.css);
+@import url(navigation.css);
+
+
+
+
+html, body {
+ scroll-behavior: smooth;
+ margin: 0;
+ padding: 0;
+
+ background-color: #fff;
+
+}
+a{
+ text-decoration: none;
+}
+ul{
+ list-style: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 600;
+ margin: 0;
+}
+
+h3{
+
+ color: #fff;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+.main .nav .menu li:nth-child(5) a::after {
+ transform: scale(1, 1);
+ transform-origin: center;
+}
+
+
+.main .nav .menu li:nth-child(5) a:hover::after {
+ 
+ transform: scale(.7, 1);
+ transform-origin: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .first-section{
+ height: 70vh;
+ width: 100%;
+ position: relative; 
+ background-image: url(../gallery/background-music.jpg);
+ background-color: #00000093;
+ background-blend-mode: multiply;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ display: grid;
+ 
+}
+
+
+.main .first-section .title{
+ 
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.main .first-section .title h1{
+ margin: 0;
+ font-size: 100px;
+ /* color: #F4D35E; */
+ color: #fff;
+ font-family: 'Henny Penny', cursive;
+
+}
+
+
+
+
+
+
+
+
+
+.main .second-section{
+
+ height: 150vh;
+ width: 100%;
+ background-color: #0e1013;
+ display: grid;
+ grid-template-rows: 200px 1fr;
+}
+
+
+.main .second-section .title{
+ text-align: center;
+ color: #fff;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main .second-section .title h1{
+ margin: 0;
+ margin-top: 100px;
+
+}
+
+.main .second-section .center{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-template-rows: repeat(2,1fr);
+ height: auto;
+ margin: 0 230px 100px 230px;
+ gap: 30px;
+ position: relative;
+
+}
+
+
+
+
+img{
+ border-radius: 200px;
+ height: 180px;
+ width: 180px;
+ margin: 0;
+}
+.main .second-section .center .image{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 40px;
+}
+
+
+.main .second-section .center .select{
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr;
+ position: relative;
+ cursor: default;
+ 
+ }
+ 
+.main .second-section .center .button{
+ margin-left: 20px; 
+
+}
+.main .second-section .center h3{
+ margin-bottom: 2px;
+ font-size: 16px;
+}
+.main .second-section .center h4{
+
+ margin-top: 0;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#play{
+ height: 100%;
+ position: absolute;
+ opacity: 0;
+ transition: opacity .2s ease;
+ margin-left: 200px;
+ margin-top: 20px;
+ height: 45px;
+ width: 45px;
+
+ }
+ 
+
+.main .second-section .center a:hover #play{
+ 
+ transition: margin-top .5s ease;
+ opacity: 1;
+ margin-top: 15px;
+
+ }
+ 
+ 
+ 
+.main .second-section .center a{
+ background-color: #202124;
+ border-radius: 5px;
+ 
+ transition: all .2s ease;
+}
+
+.main .second-section .center a:hover{
+ 
+ background-color: #2e3134;
+
+}
+
+
+
+.main .footer img{
+ all: unset;
+
+}
